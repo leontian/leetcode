@@ -1,2 +1,3 @@
 # leetcode
-leetcode in Python
+leetcode in Python and C++
+
