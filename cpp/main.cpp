@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include "Solution1.hpp"
 #include "Solution19.hpp"
 #include "Solution88.hpp"
 #include "Solution22.hpp"
@@ -17,6 +18,12 @@
 
 
 int main(int argc, const char * argv[]) {
+    // 1
+    Solution1 test1;
+    std::vector<int> test1vec = std::vector<int> {2, 7, 11, 15};
+    std::cout << test1.twoSum(test1vec, 9)[0] << test1.twoSum(test1vec, 9)[1] 
+        <<  std::endl;
+
     // 19
     Solution19 test19;
     ListNode* lst = buildList(std::vector<int> {1, 2, 3});
