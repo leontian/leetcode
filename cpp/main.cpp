@@ -14,6 +14,7 @@
 #include "Solution22.hpp"
 #include "Solution461.hpp"
 #include "ListUtils.hpp"
+#include "Solution5.hpp"
 
 
 
@@ -23,6 +24,13 @@ int main(int argc, const char * argv[]) {
     std::vector<int> test1vec = std::vector<int> {2, 7, 11, 15};
     std::cout << test1.twoSum(test1vec, 9)[0] << test1.twoSum(test1vec, 9)[1] 
         <<  std::endl;
+
+    //5
+    Solution5 test5;
+    std::cout << test5.longestPalindrome("babad") <<std::endl;
+    std::cout << test5.longestPalindrome("baad") <<std::endl;
+    std::cout << test5.longestPalindrome("aaa") <<std::endl;
+    std::cout << test5.longestPalindrome("aaaa") <<std::endl;
 
     // 19
     Solution19 test19;
