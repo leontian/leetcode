@@ -8,13 +8,13 @@
 
 #include <iostream>
 #include <vector>
-#include "Solution1.hpp"
-#include "Solution19.hpp"
-#include "Solution88.hpp"
-#include "Solution22.hpp"
-#include "Solution461.hpp"
-#include "ListUtils.hpp"
-#include "Solution5.hpp"
+#include "leetcode/Solution1.hpp"
+#include "leetcode/Solution19.hpp"
+#include "leetcode/Solution88.hpp"
+#include "leetcode/Solution22.hpp"
+#include "leetcode/Solution461.hpp"
+#include "leetcode/ListUtils.hpp"
+#include "leetcode/Solution5.hpp"
 
 
 
