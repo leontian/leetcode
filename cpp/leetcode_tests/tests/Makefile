@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.7.2/bin/cmake
+CMAKE_COMMAND = "/Users/leon/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.4073.41/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.7.2/bin/cmake -E remove -f
+RM = "/Users/leon/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.4073.41/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/leon/git/leetcode/cpp
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.7.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"/Users/leon/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.4073.41/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
@@ -70,7 +70,7 @@ install/local/fast: install/local
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.7.2/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/leon/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.4073.41/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -80,8 +80,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.7.2/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"/Users/leon/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.4073.41/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -92,7 +92,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.7.2/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"/Users/leon/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.4073.41/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
@@ -103,13 +103,13 @@ install/strip/fast: install/strip
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.7.2/bin/cmake -P cmake_install.cmake
+	"/Users/leon/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.4073.41/CLion.app/Contents/bin/cmake/bin/cmake" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.7.2/bin/cmake -P cmake_install.cmake
+	"/Users/leon/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/171.4073.41/CLion.app/Contents/bin/cmake/bin/cmake" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -196,6 +196,60 @@ P1.cpp.s:
 	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P1.cpp.s
 .PHONY : P1.cpp.s
 
+P2.o: P2.cpp.o
+
+.PHONY : P2.o
+
+# target to build an object file
+P2.cpp.o:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P2.cpp.o
+.PHONY : P2.cpp.o
+
+P2.i: P2.cpp.i
+
+.PHONY : P2.i
+
+# target to preprocess a source file
+P2.cpp.i:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P2.cpp.i
+.PHONY : P2.cpp.i
+
+P2.s: P2.cpp.s
+
+.PHONY : P2.s
+
+# target to generate assembly for a file
+P2.cpp.s:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P2.cpp.s
+.PHONY : P2.cpp.s
+
+P318.o: P318.cpp.o
+
+.PHONY : P318.o
+
+# target to build an object file
+P318.cpp.o:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P318.cpp.o
+.PHONY : P318.cpp.o
+
+P318.i: P318.cpp.i
+
+.PHONY : P318.i
+
+# target to preprocess a source file
+P318.cpp.i:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P318.cpp.i
+.PHONY : P318.cpp.i
+
+P318.s: P318.cpp.s
+
+.PHONY : P318.s
+
+# target to generate assembly for a file
+P318.cpp.s:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P318.cpp.s
+.PHONY : P318.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +266,12 @@ help:
 	@echo "... P1.o"
 	@echo "... P1.i"
 	@echo "... P1.s"
+	@echo "... P2.o"
+	@echo "... P2.i"
+	@echo "... P2.s"
+	@echo "... P318.o"
+	@echo "... P318.i"
+	@echo "... P318.s"
 .PHONY : help
 
 

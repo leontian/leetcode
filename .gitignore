@@ -3,3 +3,5 @@
 .idea/*
 *.out
 CMakeCache.txt
+*.a
+*.cbp
