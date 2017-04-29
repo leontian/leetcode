@@ -385,6 +385,33 @@ Solution516.cpp.s:
 	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode/CMakeFiles/leetcode.dir/build.make leetcode/CMakeFiles/leetcode.dir/Solution516.cpp.s
 .PHONY : Solution516.cpp.s
 
+Solution561.o: Solution561.cpp.o
+
+.PHONY : Solution561.o
+
+# target to build an object file
+Solution561.cpp.o:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode/CMakeFiles/leetcode.dir/build.make leetcode/CMakeFiles/leetcode.dir/Solution561.cpp.o
+.PHONY : Solution561.cpp.o
+
+Solution561.i: Solution561.cpp.i
+
+.PHONY : Solution561.i
+
+# target to preprocess a source file
+Solution561.cpp.i:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode/CMakeFiles/leetcode.dir/build.make leetcode/CMakeFiles/leetcode.dir/Solution561.cpp.i
+.PHONY : Solution561.cpp.i
+
+Solution561.s: Solution561.cpp.s
+
+.PHONY : Solution561.s
+
+# target to generate assembly for a file
+Solution561.cpp.s:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode/CMakeFiles/leetcode.dir/build.make leetcode/CMakeFiles/leetcode.dir/Solution561.cpp.s
+.PHONY : Solution561.cpp.s
+
 Solution88.o: Solution88.cpp.o
 
 .PHONY : Solution88.o
@@ -449,6 +476,9 @@ help:
 	@echo "... Solution516.o"
 	@echo "... Solution516.i"
 	@echo "... Solution516.s"
+	@echo "... Solution561.o"
+	@echo "... Solution561.i"
+	@echo "... Solution561.s"
 	@echo "... Solution88.o"
 	@echo "... Solution88.i"
 	@echo "... Solution88.s"

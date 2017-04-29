@@ -250,6 +250,33 @@ P318.cpp.s:
 	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P318.cpp.s
 .PHONY : P318.cpp.s
 
+P561.o: P561.cpp.o
+
+.PHONY : P561.o
+
+# target to build an object file
+P561.cpp.o:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P561.cpp.o
+.PHONY : P561.cpp.o
+
+P561.i: P561.cpp.i
+
+.PHONY : P561.i
+
+# target to preprocess a source file
+P561.cpp.i:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P561.cpp.i
+.PHONY : P561.cpp.i
+
+P561.s: P561.cpp.s
+
+.PHONY : P561.s
+
+# target to generate assembly for a file
+P561.cpp.s:
+	cd /Users/leon/git/leetcode/cpp && $(MAKE) -f leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/build.make leetcode_tests/tests/CMakeFiles/runLeetCodeTests.dir/P561.cpp.s
+.PHONY : P561.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -272,6 +299,9 @@ help:
 	@echo "... P318.o"
 	@echo "... P318.i"
 	@echo "... P318.s"
+	@echo "... P561.o"
+	@echo "... P561.i"
+	@echo "... P561.s"
 .PHONY : help
 
 
